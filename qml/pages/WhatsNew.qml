@@ -28,6 +28,17 @@ Page{
             spacing: Theme.paddingSmall
 
             SectionHeader {
+                text: "Picross v2.4.1 (13.2.2019)"
+                font.pixelSize: Theme.fontSizeSmall
+            }
+            Label {
+                width: parent.width
+                wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+                anchors.horizontalCenter: parent.horizontalCenter
+                font.pixelSize: Theme.fontSizeSmall
+                text: "- Added translations' credits page"
+            }
+            SectionHeader {
                 text: "Picross v2.4 (11.2.2019)"
                 font.pixelSize: Theme.fontSizeSmall
             }
@@ -36,7 +47,9 @@ Page{
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 anchors.horizontalCenter: parent.horizontalCenter
                 font.pixelSize: Theme.fontSizeSmall
-                text: "- Added simple statistics to welcome page"
+                text:
+"- Added simple statistics to welcome page
+- Added Polish and Spanish translations"
             }
             SectionHeader {
                 text: "Picross v2.3 (17.12.2018)"
